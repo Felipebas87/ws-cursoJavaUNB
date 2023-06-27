@@ -1,0 +1,21 @@
+package program;
+
+
+public class Random1 {
+
+	public static void main(String[] args) {
+		
+
+		
+	Random gerador = new java.util.Random();
+
+		
+		
+		
+		
+
+	}
+
+	
+
+}

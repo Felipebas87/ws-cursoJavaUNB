@@ -1,0 +1,37 @@
+package program;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Random1 {
+
+	public static void main(String[] args) {
+		
+
+		
+	Random gerador = new Random();
+	System.out.println("Favor digitar um número para advinhar:");
+	Scanner sc = new Scanner(System.in);
+	int x = gerador.nextInt(100);
+	int n = sc.nextInt();
+	
+	
+	if(x>n) {
+		
+	}
+	
+
+	
+	
+	
+
+		
+		
+		
+		
+
+	}
+
+	
+
+}

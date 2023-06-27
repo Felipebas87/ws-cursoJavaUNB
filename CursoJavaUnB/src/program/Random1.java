@@ -1,0 +1,33 @@
+package program;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Random1 {
+
+	public static void main(String[] args) {
+
+		Random gerador = new Random();
+		int palpite;
+
+		Scanner sc = new Scanner(System.in);
+
+		int x = gerador.nextInt(100);
+		
+		 System.out.println("Adivinhe o número entre 1 e 100:");
+
+		do {
+			palpite = sc.nextInt();
+
+			if (palpite < x) {
+				System.out.println("O número correto é maior");
+			} else if (palpite > x) {
+				System.out.println("O número correto é menor");
+			}
+		} while (palpite != x);
+
+		System.out.println("Parabéns, você acertou");
+		sc.close();
+	}
+
+}
